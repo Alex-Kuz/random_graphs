@@ -6,3 +6,6 @@ pres:
 
 view:
 	gvfs-open out/presentation.pdf 
+
+clear:
+	rm -rf out/*

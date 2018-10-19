@@ -1,0 +1,14 @@
+\frametitle{Обобщение модели Эрдеша-Реньи} 
+
+
+\begin{rdefinition}    
+    Пусть $V_n = \{v_1, v_2, \dots, v_n\}$ - множество вершин. 
+    Будем соединять вершины $v_i$ и $v_j$ ребром с вероятностями $p_{i, j} \in [0, 1]$ независимо от других ребер.  
+    В аксиоматике Колмогорова:
+    \[ 
+        G(n, p) = \left(\Omega_n, F_n, P_{n, p_{i, j}}\right), \textnormal{где}
+    \]
+    \[
+        P_{n, p_{i, j}}(G) =  \prod_{(i, j) \in E}p_{i, j} \cdot \prod_{(i, j) \notin E}(1 - p_{i, j}). 
+    \]
+\end{rdefinition}
